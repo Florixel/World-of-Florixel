@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Digitaler Mini‑Onlineshop</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background:#f5f5f5; }
+    header { background:#111; color:#fff; padding:20px; text-align:center; }
+    .container { max-width:1000px; margin:30px auto; padding:20px; background:#fff; border-radius:12px; }
+    .product { display:flex; gap:20px; align-items:flex-start; }
+    .product img { width:260px; border-radius:10px; }
+    button { background:#111; color:#fff; border:none; padding:12px 20px; border-radius:8px; cursor:pointer; font-size:16px; }
+    button:hover { background:#333; }
+    h2 { margin-top:40px; }
+    footer { text-align:center; padding:30px; color:#777; font-size:14px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mein Digitaler Shop</h1>
+  </header>
+
+  <div class="container">
+
+    <h2>Produkt</h2>
+    <div class="product">
+      <img src="https://via.placeholder.com/260x260.png?text=Digitales+Produkt" alt="Produkt" />
+      <div>
+        <h3>Digitales Produkt – Beispiel</h3>
+        <p>Beschreibung: Ein hochwertiges digitales Produkt (z. B. E‑Book, Template, Preset, Musikfile, etc.). Der Versand erfolgt automatisch oder per E‑Mail.</p>
+        <p><strong>Preis: 9,99 €</strong></p>
+
+        <!-- PayPal Kaufbutton (Beispiel-Link) -->
+        <button onclick="window.location.href='https://www.paypal.com/paypalme/beispiel/9.99'">Jetzt kaufen mit PayPal</button>
+      </div>
+    </div>
+
+    <h2>Widerrufsbelehrung & Hinweis zum digitalen Produkt</h2>
+    <p>
+      Da es sich um ein digitales Produkt handelt, das nach dem Kauf direkt ausgeliefert wird,
+      bestätigst du mit dem Kauf, dass die Ausführung des Vertrags vor Ablauf der Widerrufsfrist beginnt
+      und du dadurch <strong>dein Widerrufsrecht verlierst</strong>.
+    </p>
+
+    <h2>Datenschutzerklärung</h2>
+    <p>
+      Für den Kauf werden Name und E‑Mail-Adresse verarbeitet, um das digitale Produkt bereitzustellen.
+      Die Zahlungsabwicklung erfolgt über PayPal. Anbieter ist die PayPal (Europe) S.à r.l. et Cie, S.C.A.
+      PayPal verarbeitet personenbezogene Daten gemäß seiner eigenen Datenschutzrichtlinie.
+    </p>
+
+    <h2>Impressum</h2>
+    <p>
+      <strong>Dein Name<br>
+      Deine Adresse<br>
+      PLZ Ort<br>
+      Deutschland</strong><br><br>
+      E-Mail: deine-email@example.com
+    </p>
+
+  </div>
+
+  <footer>&copy; 2025 Dein Digitaler Shop</footer>
+</body>
+</html>
